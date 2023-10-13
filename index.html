@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <script src="./src/js/main.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <button class="header__btn">
+          <ion-icon name="menu"></ion-icon>
+        </button>
+        <ul class="header__list">
+          <li>Todos</li>
+          <li>Camisetas</li>
+          <li>Hoodies</li>
+          <li>Sweaters</li>
+        </ul>
+        <figure class="cart__btn"> 
+          <img class="cart__img1" src="./src/img/carritoUnoGif.gif" alt="cart-icon">  
+          <img class="cart__img2" src="./src/img/carritoUno.png" alt="cart-icon">
+          <span>0</span>
+        </figure>
+        <div class="cart__modal">
+          <div class="cart__products"></div>
+          <div class="cart__totals">
+            <div>
+              <p><span>cantidad:</span> 0</p>
+              <p><span>Total:</span> $0</p>
+            </div>  
+              <button class="btn__buy">Buy</button>
+          </div>
+        </div>
+      </nav>   
+    </header>
+    <main>
+      <img src="./src/img/academloImg.png" alt="fondo academlo">
+      <section class="presentation">
+        <p>All our products</p>
+      </section>
+      <section class="products">
+      </section>
+      <section class="view__modal">
+        <article class="content__modal"></article>
+        <span class="close__modal">X</span>
+      </section>
+    </main>
+    <footer>
+
+    </footer>
+  </body>
+</html>
