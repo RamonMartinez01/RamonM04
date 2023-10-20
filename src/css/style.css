@@ -286,7 +286,7 @@ main {
     .header__list * {
         padding: 5px;
         text-decoration: none;
-        background-color: #eb4a5a;
+        background-color: #00CC00;
     }
     .header__btn {
         display: none;
